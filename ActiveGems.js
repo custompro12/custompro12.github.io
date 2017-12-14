@@ -1,0 +1,1180 @@
+gemList = { activeGems: [], supportGems: [] }
+
+gemList.activeGems = [
+        {
+            "name": "Fireball",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell AoE Fire"
+        },
+        {
+            "name": "Vaal Fireball",
+            "lvl": 1,
+            "color": "blue",
+            "tags": "Projectile Intelligence Vaal Spell AoE Fire"
+        },
+        {
+            "name": "Ice Nova",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Cold"
+        },
+        {
+            "name": "Vaal Ice Nova",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Cold"
+        },
+        {
+            "name": "Leap Slam",
+            "lvl": 10,
+            "color": "red",
+            "tags": "Strength Attack AoE Movement Melee"
+        },
+        {
+            "name": "Charged Dash",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Movement AoE Channelling Attack Lightning Melee"
+        },
+        {
+            "name": "Blade Flurry",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Channelling Melee Prophecy"
+        },
+        {
+            "name": "Sweep",
+            "lvl": 12,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee"
+        },
+        {
+            "name": "Discorectangle Slam",
+            "lvl": 12,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee"
+        },
+        {
+            "name": "Ground Slam",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee"
+        },
+        {
+            "name": "Vaal Ground Slam",
+            "lvl": 1,
+            "color": "red",
+            "tags": "Strength Vaal Attack AoE Melee"
+        },
+        {
+            "name": "Cleave",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee"
+        },
+        {
+            "name": "Shield Charge",
+            "lvl": 10,
+            "color": "red",
+            "tags": "Strength Attack AoE Movement Melee"
+        },
+        {
+            "name": "Enduring Cry",
+            "lvl": 16,
+            "color": "red",
+            "tags": "Warcry Strength AoE Duration"
+        },
+        {
+            "name": "Double Strike",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Melee"
+        },
+        {
+            "name": "Vaal Double Strike",
+            "lvl": 1,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack Melee Duration"
+        },
+        {
+            "name": "Lacerate",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Melee Prophecy"
+        },
+        {
+            "name": "Elemental Hit",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Melee Fire Cold Lightning Bow"
+        },
+        {
+            "name": "Immortal Call",
+            "lvl": 34,
+            "color": "red",
+            "tags": "Strength Spell Duration"
+        },
+        {
+            "name": "Vaal Immortal Call",
+            "lvl": 34,
+            "color": "red",
+            "tags": "Strength Vaal Spell Duration"
+        },
+        {
+            "name": "Dual Strike",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Melee"
+        },
+        {
+            "name": "Whirling Blades",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Dexterity Attack Movement Melee"
+        },
+        {
+            "name": "Frenzy",
+            "lvl": 16,
+            "color": "green",
+            "tags": "Dexterity Attack Melee Bow"
+        },
+        {
+            "name": "Detonate Dead",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Spell AoE Fire"
+        },
+        {
+            "name": "Vaal Detonate Dead",
+            "lvl": 4,
+            "color": "green",
+            "tags": "Dexterity Vaal Cast AoE Fire"
+        },
+        {
+            "name": "Volatile Dead",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Spell AoE Fire"
+        },
+        {
+            "name": "Unearth",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Projectile Dexterity Spell"
+        },
+        {
+            "name": "Split Arrow",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Bow"
+        },
+        {
+            "name": "Cold Snap",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Cold"
+        },
+        {
+            "name": "Vaal Cold Snap",
+            "lvl": 4,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Duration Cold"
+        },
+        {
+            "name": "Raise Zombie",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell Minion"
+        },
+        {
+            "name": "Caustic Arrow",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Duration Chaos Bow"
+        },
+        {
+            "name": "Blood Rage",
+            "lvl": 16,
+            "color": "green",
+            "tags": "Dexterity Spell Duration"
+        },
+        {
+            "name": "Righteous Fire",
+            "lvl": 16,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Fire"
+        },
+        {
+            "name": "Vaal Righteous Fire",
+            "lvl": 16,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Fire"
+        },
+        {
+            "name": "Discharge",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Fire Cold Lightning"
+        },
+        {
+            "name": "Portal",
+            "lvl": 10,
+            "color": "white",
+            "tags": " Spell Drop Only"
+        },
+        {
+            "name": "Vaal Breach",
+            "lvl": 10,
+            "color": "white",
+            "tags": " Vaal Spell"
+        },
+        {
+            "name": "Flicker Strike",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Dexterity Attack Melee Movement"
+        },
+        {
+            "name": "Spark",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Duration Lightning"
+        },
+        {
+            "name": "Vaal Spark",
+            "lvl": 1,
+            "color": "blue",
+            "tags": "Projectile Intelligence Vaal Spell Duration Lightning"
+        },
+        {
+            "name": "Ice Spear",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Cold"
+        },
+        {
+            "name": "Raise Spectre",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell Minion"
+        },
+        {
+            "name": "Infernal Blow",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee Fire"
+        },
+        {
+            "name": "Glacial Hammer",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Attack Melee Cold"
+        },
+        {
+            "name": "Vaal Glacial Hammer",
+            "lvl": 1,
+            "color": "red",
+            "tags": "Strength Vaal Attack Melee Duration AoE Cold"
+        },
+        {
+            "name": "Frost Wall",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell Duration Cold"
+        },
+        {
+            "name": "Freezing Pulse",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Cold"
+        },
+        {
+            "name": "Shock Nova",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Lightning"
+        },
+        {
+            "name": "Viper Strike",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Duration Melee Chaos"
+        },
+        {
+            "name": "Phase Run",
+            "lvl": 34,
+            "color": "green",
+            "tags": "Dexterity Spell Duration Movement"
+        },
+        {
+            "name": "Explosive Arrow",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Fire Dexterity Attack AoE Duration Bow"
+        },
+        {
+            "name": "Temporal Chains",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Curse Dexterity Spell AoE Duration"
+        },
+        {
+            "name": "Elemental Weakness",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration"
+        },
+        {
+            "name": "Warlord's Mark",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Curse Strength Spell AoE Duration"
+        },
+        {
+            "name": "Punishment",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Curse Strength Spell AoE Duration"
+        },
+        {
+            "name": "Enfeeble",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration"
+        },
+        {
+            "name": "Assassin's Mark",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration"
+        },
+        {
+            "name": "Projectile Weakness",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Curse Dexterity Spell AoE Duration"
+        },
+        {
+            "name": "Despair",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration Chaos"
+        },
+        {
+            "name": "Lightning Warp",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Movement Lightning"
+        },
+        {
+            "name": "Vaal Lightning Warp",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Duration Lightning"
+        },
+        {
+            "name": "Summon Skeleton",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Spell Minion Duration"
+        },
+        {
+            "name": "Vaal Summon Skeletons",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell Minion Duration"
+        },
+        {
+            "name": "Heavy Strike",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Attack Melee"
+        },
+        {
+            "name": "Dominating Blow",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Strength Attack Minion Duration Melee"
+        },
+        {
+            "name": "Rain of Arrows",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Bow"
+        },
+        {
+            "name": "Vaal Rain of Arrows",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack AoE Duration Bow"
+        },
+        {
+            "name": "Firestorm",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Fire"
+        },
+        {
+            "name": "Lightning Strike",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Projectile Dexterity Attack Melee Lightning"
+        },
+        {
+            "name": "Vaal Lightning Strike",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack Melee Duration Lightning"
+        },
+        {
+            "name": "Tempest Shield",
+            "lvl": 16,
+            "color": "blue",
+            "tags": "Intelligence Spell Lightning Chaining Duration"
+        },
+        {
+            "name": "Molten Shell",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Strength Spell AoE Duration Fire"
+        },
+        {
+            "name": "Vaal Molten Shell",
+            "lvl": 4,
+            "color": "red",
+            "tags": "Strength Vaal Spell AoE Duration Fire"
+        },
+        {
+            "name": "Power Siphon",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Attack Projectile"
+        },
+        {
+            "name": "Vaal Power Siphon",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Vaal Attack Projectile"
+        },
+        {
+            "name": "Puncture",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Duration Melee Bow"
+        },
+        {
+            "name": "Lightning Arrow",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Lightning Bow"
+        },
+        {
+            "name": "Haste",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Spell AoE"
+        },
+        {
+            "name": "Vaal Haste",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Vaal Spell AoE Duration"
+        },
+        {
+            "name": "Purity of Elements",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Aura Intelligence Spell AoE"
+        },
+        {
+            "name": "Vitality",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Aura Strength Spell AoE"
+        },
+        {
+            "name": "Discipline",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Aura Intelligence Spell AoE"
+        },
+        {
+            "name": "Vaal Discipline",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Aura Intelligence Vaal Spell AoE Duration"
+        },
+        {
+            "name": "Grace",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Spell AoE"
+        },
+        {
+            "name": "Vaal Grace",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Vaal Spell AoE Duration"
+        },
+        {
+            "name": "Determination",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Aura Strength Spell AoE"
+        },
+        {
+            "name": "Anger",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Aura Strength Spell AoE Fire"
+        },
+        {
+            "name": "Hatred",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Spell AoE Cold"
+        },
+        {
+            "name": "Wrath",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Aura Intelligence Spell AoE Lightning"
+        },
+        {
+            "name": "Burning Arrow",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack Fire Bow"
+        },
+        {
+            "name": "Vaal Burning Arrow",
+            "lvl": 1,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack AoE Fire Bow"
+        },
+        {
+            "name": "Clarity",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Aura Intelligence Spell AoE"
+        },
+        {
+            "name": "Vaal Clarity",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Aura Intelligence Vaal Spell AoE Duration"
+        },
+        {
+            "name": "Detonate Mines",
+            "lvl": 8,
+            "color": "white",
+            "tags": " Spell Drop Only"
+        },
+        {
+            "name": "Shockwave Totem",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Totem Strength Spell AoE Duration"
+        },
+        {
+            "name": "Rejuvenation Totem",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Totem Aura Strength Spell AoE Duration"
+        },
+        {
+            "name": "Freeze Mine",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Mine Dexterity Spell AoE Duration Cold"
+        },
+        {
+            "name": "Conversion Trap",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Trap Intelligence Spell Duration"
+        },
+        {
+            "name": "Bear Trap",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Trap Dexterity Duration Cast"
+        },
+        {
+            "name": "Fire Trap",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Trap Dexterity Spell Duration AoE Fire"
+        },
+        {
+            "name": "Decoy Totem",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Totem Strength Spell Duration AoE"
+        },
+        {
+            "name": "Devouring Totem",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Totem Strength Spell Duration"
+        },
+        {
+            "name": "Ethereal Knives",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Projectile Dexterity Spell"
+        },
+        {
+            "name": "Ice Shot",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Duration Cold Bow"
+        },
+        {
+            "name": "Arctic Breath",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Duration AoE Cold"
+        },
+        {
+            "name": "Arc",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell Chaining Lightning"
+        },
+        {
+            "name": "Vaal Arc",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell Chaining Lightning"
+        },
+        {
+            "name": "Arctic Armour",
+            "lvl": 16,
+            "color": "green",
+            "tags": "Dexterity Spell Duration Cold"
+        },
+        {
+            "name": "Flame Totem",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Projectile Totem Strength Spell Duration Fire"
+        },
+        {
+            "name": "Flammability",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration Fire"
+        },
+        {
+            "name": "Frostbite",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration Cold"
+        },
+        {
+            "name": "Conductivity",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Curse Intelligence Spell AoE Duration Lightning"
+        },
+        {
+            "name": "Storm Burst",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Projectile AoE Intelligence Spell Lightning Channelling"
+        },
+        {
+            "name": "Incinerate",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Fire Channelling"
+        },
+        {
+            "name": "Cyclone",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Movement Melee"
+        },
+        {
+            "name": "Vaal Cyclone",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack AoE Duration Melee"
+        },
+        {
+            "name": "Searing Bond",
+            "lvl": 12,
+            "color": "red",
+            "tags": "Totem Strength Spell Duration Fire"
+        },
+        {
+            "name": "Reave",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Attack AoE Melee"
+        },
+        {
+            "name": "Vaal Reave",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Vaal Attack AoE Melee"
+        },
+        {
+            "name": "Lightning Trap",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Projectile Trap Intelligence Spell Duration Lightning"
+        },
+        {
+            "name": "Vaal Lightning Trap",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Projectile Trap Intelligence Vaal Spell Duration Lightning"
+        },
+        {
+            "name": "Smoke Mine",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Mine Dexterity Spell AoE Duration Movement"
+        },
+        {
+            "name": "Animate Guardian",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Strength Spell Minion"
+        },
+        {
+            "name": "Spectral Throw",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Projectile Dexterity Attack"
+        },
+        {
+            "name": "Vaal Spectral Throw",
+            "lvl": 1,
+            "color": "green",
+            "tags": "Projectile Dexterity Vaal Attack"
+        },
+        {
+            "name": "Animate Weapon",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Dexterity Duration Minion Spell"
+        },
+        {
+            "name": "Purity of Fire",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Aura Strength Spell AoE Fire"
+        },
+        {
+            "name": "Purity of Ice",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Aura Dexterity Spell AoE Cold"
+        },
+        {
+            "name": "Purity of Lightning",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Aura Intelligence Spell AoE Lightning"
+        },
+        {
+            "name": "Storm Call",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Lightning"
+        },
+        {
+            "name": "Vaal Storm Call",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Duration Lightning"
+        },
+        {
+            "name": "Flameblast",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Fire Channelling"
+        },
+        {
+            "name": "Vaal Flameblast",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Vaal Spell AoE Fire"
+        },
+        {
+            "name": "Barrage",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Attack Bow"
+        },
+        {
+            "name": "Ball Lightning",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell AoE Lightning"
+        },
+        {
+            "name": "Summon Raging Spirit",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell Minion Duration Fire"
+        },
+        {
+            "name": "Flame Surge",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Fire"
+        },
+        {
+            "name": "Desecrate",
+            "lvl": 16,
+            "color": "green",
+            "tags": "Dexterity Spell AoE Duration Chaos"
+        },
+        {
+            "name": "Flesh Offering",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Minion Intelligence Spell Duration"
+        },
+        {
+            "name": "Bone Offering",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Minion Intelligence Spell Duration"
+        },
+        {
+            "name": "Spirit Offering",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Minion Intelligence Spell Duration Prophecy"
+        },
+        {
+            "name": "Glacial Cascade",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Cold"
+        },
+        {
+            "name": "Molten Strike",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Projectile Strength Attack AoE Melee Fire"
+        },
+        {
+            "name": "Convocation",
+            "lvl": 24,
+            "color": "blue",
+            "tags": "Minion Intelligence Spell Duration"
+        },
+        {
+            "name": "Fire Nova Mine",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "AoE Mine Intelligence Spell Fire Duration"
+        },
+        {
+            "name": "Tornado Shot",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Attack Bow"
+        },
+        {
+            "name": "Herald of Ash",
+            "lvl": 16,
+            "color": "red",
+            "tags": "Strength Spell AoE Fire Herald Duration"
+        },
+        {
+            "name": "Herald of Ice",
+            "lvl": 16,
+            "color": "green",
+            "tags": "Dexterity Cast AoE Cold Herald"
+        },
+        {
+            "name": "Herald of Thunder",
+            "lvl": 16,
+            "color": "blue",
+            "tags": "Intelligence Cast AoE Duration Lightning Herald"
+        },
+        {
+            "name": "Poacher's Mark",
+            "lvl": 24,
+            "color": "green",
+            "tags": "Curse Dexterity Spell AoE Duration"
+        },
+        {
+            "name": "Lightning Tendrils",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Lightning Channelling"
+        },
+        {
+            "name": "Lightning Tendrils",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Lightning Channelling"
+        },
+        {
+            "name": "Kinetic Blast",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Attack AoE Projectile"
+        },
+        {
+            "name": "Blink Arrow",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Dexterity Attack Minion Duration Movement Bow"
+        },
+        {
+            "name": "Mirror Arrow",
+            "lvl": 10,
+            "color": "green",
+            "tags": "Dexterity Attack Minion Duration Bow"
+        },
+        {
+            "name": "Riposte",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Trigger Dexterity Attack Melee"
+        },
+        {
+            "name": "Reckoning",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Trigger Strength Attack AoE Melee"
+        },
+        {
+            "name": "Static Strike",
+            "lvl": 12,
+            "color": "red",
+            "tags": "Strength Attack Melee AoE Duration Lightning"
+        },
+        {
+            "name": "Vengeance",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Trigger Strength Attack AoE Melee"
+        },
+        {
+            "name": "Summon Chaos Golem",
+            "lvl": 34,
+            "color": "blue",
+            "tags": "Intelligence Chaos Minion Spell Golem"
+        },
+        {
+            "name": "Summon Ice Golem",
+            "lvl": 34,
+            "color": "green",
+            "tags": "Dexterity Cold Minion Spell Golem"
+        },
+        {
+            "name": "Summon Flame Golem",
+            "lvl": 34,
+            "color": "red",
+            "tags": "Strength Fire Minion Spell Golem"
+        },
+        {
+            "name": "Summon Lightning Golem",
+            "lvl": 34,
+            "color": "blue",
+            "tags": "Intelligence Lightning Minion Spell Golem Perandus"
+        },
+        {
+            "name": "Ice Crash",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Strength Attack AoE Cold Melee"
+        },
+        {
+            "name": "Rallying Cry",
+            "lvl": 10,
+            "color": "red",
+            "tags": "Warcry Strength AoE Duration"
+        },
+        {
+            "name": "Abyssal Cry",
+            "lvl": 34,
+            "color": "red",
+            "tags": "Warcry Strength AoE Duration Chaos"
+        },
+        {
+            "name": "Flame Dash",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Spell Movement Duration Fire"
+        },
+        {
+            "name": "Vigilant Strike",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Attack Strength Melee"
+        },
+        {
+            "name": "Frost Blades",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Projectile Dexterity Attack Melee Cold"
+        },
+        {
+            "name": "Magma Orb",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell AoE Fire Chaining"
+        },
+        {
+            "name": "Wild Strike",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Projectile Dexterity Attack Melee Lightning Cold Fire AoE Chaining"
+        },
+        {
+            "name": "Ice Trap",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Trap Dexterity Spell AoE Cold Duration Perandus"
+        },
+        {
+            "name": "Blast Rain",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Fire Dexterity Attack AoE Bow"
+        },
+        {
+            "name": "Shrapnel Shot",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Lightning Dexterity Attack AoE Bow"
+        },
+        {
+            "name": "Bladefall",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Dexterity Spell AoE"
+        },
+        {
+            "name": "Blade Vortex",
+            "lvl": 12,
+            "color": "green",
+            "tags": "Dexterity Spell AoE Duration"
+        },
+        {
+            "name": "Frost Bomb",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Cold Perandus"
+        },
+        {
+            "name": "Siege Ballista",
+            "lvl": 5,
+            "color": "green",
+            "tags": "Totem Dexterity Attack Duration Bow"
+        },
+        {
+            "name": "Orb of Storms",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Lightning Intelligence Spell Duration AoE Chaining Perandus"
+        },
+        {
+            "name": "Summon Stone Golem",
+            "lvl": 34,
+            "color": "red",
+            "tags": "Strength Minion Spell Golem Perandus"
+        },
+        {
+            "name": "Earthquake",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Strength Attack AoE Duration Melee Perandus"
+        },
+        {
+            "name": "Contagion",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Chaos"
+        },
+        {
+            "name": "Wither",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Duration Chaos Channelling"
+        },
+        {
+            "name": "Blight",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Intelligence Spell Chaos AoE Channelling Duration Prophecy"
+        },
+        {
+            "name": "Essence Drain",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Duration Chaos"
+        },
+        {
+            "name": "Ancestral Protector",
+            "lvl": 5,
+            "color": "red",
+            "tags": "Totem Strength Attack Duration Melee Perandus"
+        },
+        {
+            "name": "Ancestral Warchief",
+            "lvl": 28,
+            "color": "red",
+            "tags": "Totem Strength Attack Duration AoE Melee Prophecy"
+        },
+        {
+            "name": "Sunder",
+            "lvl": 12,
+            "color": "red",
+            "tags": "Strength Attack AoE Melee Perandus"
+        },
+        {
+            "name": "Frostbolt",
+            "lvl": 5,
+            "color": "blue",
+            "tags": "Projectile Intelligence Spell Cold Prophecy"
+        },
+        {
+            "name": "Vortex",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Intelligence Spell AoE Cold Duration Prophecy"
+        },
+        {
+            "name": "Dark Pact",
+            "lvl": 28,
+            "color": "blue",
+            "tags": "Minion Intelligence Spell AoE Chaining Chaos"
+        },
+        {
+            "name": "Scorching Ray",
+            "lvl": 12,
+            "color": "blue",
+            "tags": "Intelligence Spell Fire Duration Channelling Prophecy"
+        },
+        {
+            "name": "Cremation",
+            "lvl": 28,
+            "color": "green",
+            "tags": "Projectile Dexterity Spell AoE Fire Duration"
+        },
+        {
+            "name": "Bodyswap",
+            "lvl": 10,
+            "color": "blue",
+            "tags": "Intelligence Movement Spell AoE Fire"
+        },
+        {
+            "name": "Vulnerability",
+            "lvl": 24,
+            "color": "red",
+            "tags": "Curse Strength Spell AoE Duration"
+        }
+    ]

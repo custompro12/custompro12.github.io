@@ -1,14 +1,54 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Walkthrough</title>
-  <base href="/">
+  <head>
+    <title>Path of Tools</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="content">
+      <img id="beta" alt="beta" src="img/beta.jpg">
+      <div class="vertical-center">
+
+        <!-- Active Gems -->
+        <div id="active-container" class="gems">
+            <select id="active-gems" class="selectpicker" data-live-search="true" title="Choose an active skill gem...">
+            </select>
+          <img id="active-gem-image" class="gem" data-toggle="tooltip" data-html="true" title="<h3>Multistrike Support</h3><p>Requires Level: 4<br>Sold in: Act 1 (Nessa) 1 Orb of Alteration</p>" alt="Molten Strike inventory icon.png" src="img/gem/Molten_Strike_inventory_icon.png">
+        </div>
+
+        <!-- Support Gems -->
+        <div id="support-container" class="gems">
+          <div id="red" class="colors">
+          </div>
+          <div id="green" class="colors">
+          </div>
+          <div id="blue" class="colors">
+          </div>
+          <div id="other-color" class="colors">
+          </div>
+        </div>
+
+      </div>
+
+      <p class="footer">&copy; 2017 Path Of Tools</p>
+      
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/popper.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/bootstrap-select.min.js"></script>
+
+    <script src="js/ActiveGems.js"></script>
+    <script src="js/SupportGems.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
