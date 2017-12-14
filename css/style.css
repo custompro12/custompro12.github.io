@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	background: url("../img/bg.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+div#content {
+	margin: 0 auto;
+	width: 1000px;
+	min-height: 100vh;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.85);
+	border: 5px solid black;
+	text-align: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+div.gems {
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+div.colors {
+	margin: 15px;
+}
+img#beta {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	mix-blend-mode: overlay;
+}
+img.gem {
+	height: 50px;
+	width: 50px;
+}
+img#active-gem-image {
+	display: none;
+}
+.vertical-center {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+}
+div#support-container {
+	border-left-width:4px;
+	border-left-style:double;
+	display: none;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.selected {
+	opacity: 1.0 !important;
+}
+
+div#support-container img.gem {
+	opacity: 1.0;
+}
+
+.footer {
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	right: 0;
+	font-size: smaller;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: left;
+}
+
+.red {
+	color: #8b0000;
+}
+
+.green {
+	color: #006400;
+}
+
+.blue {
+	color: #00008b;
+}
