@@ -99,6 +99,7 @@ $activeGemDropdown.change(eventData => {
     </p>`
 
   // *----- Add something to change the active gem image -----* //
+  $('#active-gem-image').attr('src', `img/active/${gem.name}.png`)
   $('#active-gem-image').show()
   $('#active-gem-image').attr('data-original-title', tooltipHtml)
 
@@ -125,7 +126,7 @@ $activeGemDropdown.change(eventData => {
                 Tags: ${supportGem.tags===""?"Any":supportGem.tags}
               </p>"
             alt="${supportGem.name} inventory icon.png"
-            src="img/gem/${supportGem.name.replace(/ /g, '_')}_inventory_icon.png">
+            src="img/support/${supportGem.name}.png">
         `
         $(`#${supportGem.color}`).append(gemHtml)
       }
