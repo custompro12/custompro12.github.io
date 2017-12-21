@@ -95,7 +95,8 @@ $activeGemDropdown.change(eventData => {
     <p>
       Min level: ${gem.lvl}<br>
       <!--Sold in: Act 1 (Nessa) 1 Orb of Alteration<br>-->
-      Tags: ${gem.tags}
+      Tags: ${gem.tags}<br>
+      Notes: ${gem.notes}
     </p>`
 
   // *----- Add something to change the active gem image -----* //
